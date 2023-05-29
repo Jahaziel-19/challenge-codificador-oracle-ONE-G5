@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="http://designify.me/code-snippets/animated-buttons/css/btns.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/48/sms-token.png" type="image/x-icon">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img width="25" height="25" src="https://img.icons8.com/ios-filled/25/00ffff/spy-male.png" alt="spy-male"/>
+        <h1>Encriptador de texto</h1>
+    </header>
+    <main>
+        <section id="textoEscrito">
+            <textarea id="mensajeEscrito" placeholder="Escribe tu mensaje"></textarea>
+            <div class="areaBotones">
+                <button id="botonEncriptar" class="btn btn-sm animated-button thar-one">Encriptar</button>
+                <button id="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section id="textoMostrado">
+            <div class="contenedorMensajeNoEncontrado">
+                <img width="200" height="200" src="https://img.icons8.com/external-bearicons-blue-bearicons/200/external-Login-email-bearicons-blue-bearicons.png" alt="external-Login-email-bearicons-blue-bearicons"/>
+                <h3 class="animated pulse">Ningún mensaje fue encontrado</h4>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <textarea id="mensajeMostrado" disabled></textarea>
+            <div class="areaBotones">
+                <button id="botonCopiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="autor">©Jesús Jahaziel Sánchez Vázquez</p>
+        <div id="contacto">
+            <a href="https://www.linkedin.com/in/jahaziel-vazquez/" target="_blank">
+                <img class="icono-contacto" width="30" height="30" src="https://img.icons8.com/ios-filled/50/00ffff/linkedin.png" alt="linkedin Jahaziel"/>
+            </a>
+            <a href="https://github.com/Jahaziel-19" target="_blank">
+                <img class="icono-contacto"  width="30" height="30" src="https://img.icons8.com/ios-filled/50/00ffff/github.png" alt="github Jahaziel"/>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
